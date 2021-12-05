@@ -1,0 +1,39 @@
+/**
+* @name Discord-Theme
+* @version 1.0.1
+* @author ₊˚ʚ 𝑘𝑎𝑖𝑑𝑜ˊ˗
+* @authorId 789168545488699403
+* @description A colorful theme inspired by the first page of Discord's website.
+* @updateUrl https://raw.githubusercontent.com/ariesstar1337/Discord-Theme/main/src/Discord-Theme.theme.css
+* @source https://github.com/ariesstar1337/Discord-Theme
+* @donate https://www.buymeacoffee.com/ariesstar1337
+* @patreon https://patreon.com/ariesstar1337
+**/
+
+@import url(https://ariesstar1337.github.io/Discord-Theme/src/main.css);
+
+/* ------------------------------ 🌷 ADD "/*" BEFORE THE "@import" OF THE STUFF THAT YOU DON'T WANT TO USE ------------------------------ */
+
+/* Colorize Discord's boring SVGs */
+@import url(https://nyri4.github.io/Discolored/main.css);
+
+/* Change the images of the friends tabs ("Online", "All", "Pending", "Blocked" and "Add a friend") */
+@import url(https://ariesstar1337.github.io/Discord-Theme/src/stuff/assets.css);
+
+/* Add icons on the personal and server settings */
+@import url(https://ariesstar1337.github.io/Discord-Theme/src/stuff/icons.css);
+
+/* To center the Discord window and add it an outline */
+@import url(https://ariesstar1337.github.io/Discord-Theme/src/stuff/paddingWindow.css);
+
+/* ------------------------------ 🌱 THE FOLLOWING STUFF SHOULDN'T BE REMOVE IF YOU DON'T WANT TO HAVE ANY PROBLEM WITH THE THEME ------------------------------ */
+
+/* You can change the color of many things like the status, Windows buttons (if you use the padding Window) and more ...
+by choosing among the following proposals:
+    → basic
+    → pastel
+    → soft
+Test them all to see witch colors are the best for you ! :D
+
+/*												  Replace this ↓↓↓↓↓			*/
+@import url(https://ariesstar1337.github.io/Discord-Theme/src/stuff/colors/basic.colors.css);
